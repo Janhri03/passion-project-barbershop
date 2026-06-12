@@ -1,16 +1,18 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <h3>BARBER</h3>
-
-      <div className="nav-links">
-        <a>Home</a>
-        <a>Services</a>
-        <a>Gallery</a>
-        <a>Contact</a>
+      <div className="logo">
+        THE<span>PLUG</span>
       </div>
 
-      <button>Book Now</button>
+      <div className="nav-links">
+        <a href="#services">SERVICES</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#location">LOCATION</a>
+        <a href="#booking">BOOKING</a>
+      </div>
+
+      <button className="nav-button">BOOK NOW</button>
     </nav>
   );
 }

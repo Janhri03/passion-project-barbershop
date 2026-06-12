@@ -1,34 +1,71 @@
 function Hero() {
   return (
-    <section className="hero">
+    <header className="hero">
+      <div className="hero-main">
+        <div className="hero-left">
+          <div className="eyebrow">
+            <span></span>
+            <p>EST. 2018 · PREMIUM GROOMING</p>
+          </div>
 
-      <div className="hero-text">
-        <p className="subtitle">EST. 1998</p>
+          <h1>
+            PRECI<span>SION</span>
+            <br></br>
+            CUTS.
+          </h1>
 
-        <h1>
-          PRECISION <br />
-          CUTS.
-        </h1>
+          <div className="hero-bottom-content">
+            <div className="hero-description">
+              <p>
+                Experience the craft of precision barbering in a modern,
+                unhurried space. Every cut is a conversation — yours starts
+                here.
+              </p>
+            </div>
 
-        <p>
-          Premium grooming experience with professional
-          barbers and timeless style.
-        </p>
+            <button className="outline-button">RESERVE A CHAIR</button>
+          </div>
 
-        <button>
-          Book Appointment
-        </button>
+          <div className="stats">
+            <div className="stat">
+              <h3>12+</h3>
+              <p>YEARS OF CRAFT</p>
+            </div>
+
+            <div className="stat">
+              <h3>4K+</h3>
+              <p>CUTS / YEAR</p>
+            </div>
+
+            <div className="stat">
+              <h3>3</h3>
+              <p>MASTER BARBERS</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="hero-right">
+          <img src="/barber-work.png" alt="Barber cutting hair" />
+        </div>
       </div>
 
-
-      <div className="hero-image">
-        <img 
-          src="/barber-work.png"
-          alt="barber-working"
-        />
+      <div className="marquee">
+        <div className="marquee-track">
+          <span>
+            PRECISION · CRAFT · LEGACY · THE PLUG BARBERSHOP · TIMELESS STYLE ·
+            BOOK YOUR CHAIR ·
+          </span>
+          <span>
+            PRECISION · CRAFT · LEGACY · THE PLUG BARBERSHOP · TIMELESS STYLE ·
+            BOOK YOUR CHAIR ·
+          </span>
+          <span>
+            PRECISION · CRAFT · LEGACY · THE PLUG BARBERSHOP · TIMELESS STYLE ·
+            BOOK YOUR CHAIR ·
+          </span>
+        </div>
       </div>
-
-    </section>
+    </header>
   );
 }
 
