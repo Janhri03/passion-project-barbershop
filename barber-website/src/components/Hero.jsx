@@ -23,8 +23,8 @@ function Hero() {
 
       <div className="hero-image">
         <img 
-          src="/barber.jpg"
-          alt="barber"
+          src="/barber-work.png"
+          alt="barber-working"
         />
       </div>
 
