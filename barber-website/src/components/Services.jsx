@@ -42,8 +42,6 @@ function Services() {
     <section className="services-section" id="services">
       <div className="services-top">
         <div>
-          <p className="section-label">03 — WHAT WE DO</p>
-
           <h2>
             OUR <br />
             <span>SERVICES.</span>
@@ -51,7 +49,7 @@ function Services() {
         </div>
 
         <p className="services-intro">
-          Every service is performed with intent. No rush, no compromise — just
+          Every service is performed with intent. No rush, no compromise - just
           the right tools, the right technique, and time given freely.
         </p>
       </div>
@@ -76,7 +74,7 @@ function Services() {
         <img src="/barber-chair.png" alt="Barber chair" />
       </div>
 
-      <div className="marquee">
+      <div className="marquee services-marquee">
         <div className="marquee-track">
           <span>
             PRECISION · CRAFT · LEGACY · THE PLUG BARBERSHOP · TIMELESS STYLE ·

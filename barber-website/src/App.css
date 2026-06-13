@@ -294,6 +294,15 @@ body {
   padding-right: 28px;
 }
 
+.services-marquee {
+  background: #050505;
+  color: #b87532;
+}
+
+.services-marquee span {
+  color: #b87532;
+}
+
 @keyframes marqueeRight {
   from {
     transform: translateX(-33.333%);
