@@ -9,9 +9,9 @@ function Hero() {
           </div>
 
           <h1>
-            PRECI<span>SION</span>
+            PRECISION
             <br></br>
-            CUTS.
+            <span>CUTS.</span>
           </h1>
 
           <div className="hero-bottom-content">

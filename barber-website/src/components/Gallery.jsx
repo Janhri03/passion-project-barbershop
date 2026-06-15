@@ -3,7 +3,6 @@ function Gallery() {
     <section className="gallery-section" id="gallery">
       <div className="gallery-top">
         <div>
-          <p className="gallery-label">03 — THE WORK</p>
           <h2>GALLERY.</h2>
         </div>
 
@@ -12,23 +11,23 @@ function Gallery() {
 
       <div className="gallery-grid">
         <div className="gallery-card gallery-large">
-          <img src="/gallery-cut.png" alt="Barber cutting hair" />
+          <img src="/thecut.png" alt="Barber cutting hair" />
           <span>THE CUT</span>
         </div>
 
         <div className="gallery-card gallery-large">
-          <img src="/gallery-craft.png" alt="Barber detailed haircut" />
+          <img src="/thecraft.png" alt="Barber detailed haircut" />
           <span>THE CRAFT</span>
         </div>
 
         <div className="gallery-column">
           <div className="gallery-card gallery-small">
-            <img src="/gallery-detail.png" alt="Haircut detail" />
+            <img src="/thedetail.png" alt="Haircut detail" />
             <span>THE DETAIL</span>
           </div>
 
           <div className="gallery-card gallery-small">
-            <img src="/gallery-look.png" alt="Finished haircut look" />
+            <img src="/thelook.png" alt="Finished haircut look" />
             <span>THE LOOK</span>
           </div>
         </div>
