@@ -476,6 +476,157 @@ body {
   }
 }
 
+/* GALLERY SECTION */
+
+.gallery-section {
+  width: 100%;
+  min-height: 100vh;
+
+  background: #e9e6df;
+  color: #080808;
+
+  padding: 72px 54px 86px;
+}
+
+.gallery-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 56px;
+}
+
+.gallery-label {
+  color: #b87532;
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+  margin-bottom: 12px;
+}
+
+.gallery-top h2 {
+  font-family: "Bebas Neue", sans-serif;
+
+  font-size: clamp(70px, 7vw, 118px);
+  line-height: 0.8;
+  letter-spacing: -1px;
+
+  color: #080808;
+}
+
+.gallery-button {
+  background: transparent;
+  color: #080808;
+
+  border: 1px solid rgba(8, 8, 8, 0.8);
+
+  padding: 18px 34px;
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 3px;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  margin-top: 42px;
+}
+
+.gallery-button:hover {
+  background: #080808;
+  color: #e9e6df;
+}
+
+.gallery-grid {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.gallery-column {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 12px;
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+
+  background: #080808;
+}
+
+.gallery-large {
+  height: 660px;
+}
+
+.gallery-small {
+  height: 324px;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  display: block;
+
+  filter: grayscale(1) contrast(1.05) brightness(0.9);
+
+  transition: 0.4s ease;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.04);
+  filter: grayscale(1) contrast(1.12) brightness(0.82);
+}
+
+.gallery-card span {
+  position: absolute;
+  left: 18px;
+  bottom: 16px;
+
+  color: #b87532;
+
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+/* GALLERY RESPONSIVE */
+
+@media (max-width: 1000px) {
+  .gallery-section {
+    padding: 56px 24px 72px;
+  }
+
+  .gallery-top {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .gallery-button {
+    margin-top: 0;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-large,
+  .gallery-small {
+    height: 420px;
+  }
+
+  .gallery-column {
+    grid-template-rows: auto;
+  }
+}
+
 /* TEMPORARY SECTIONS */
 
 section {

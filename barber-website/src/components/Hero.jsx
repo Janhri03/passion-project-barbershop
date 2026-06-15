@@ -18,7 +18,7 @@ function Hero() {
             <div className="hero-description">
               <p>
                 Experience the craft of precision barbering in a modern,
-                unhurried space. Every cut is a conversation — yours starts
+                unhurried space. Every cut is a conversation - yours starts
                 here.
               </p>
             </div>
