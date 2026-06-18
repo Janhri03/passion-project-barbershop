@@ -1,38 +1,50 @@
+import Reveal from "./Reveal";
+
 function Booking() {
   return (
     <section className="booking-section" id="booking">
       <div className="booking-content">
-        <div className="booking-text">
+        <Reveal direction="left">
+          <div className="booking-text">
+            <p className="booking-label">04 — RESERVE YOUR TIME</p>
 
-          <h2>
-            BOOK AN <br />
-            <span>APPOINT</span>
-            <br />
-            MENT.
-          </h2>
+            <h2>
+              BOOK AN
+              <br />
+              <span>APPOINT</span>
+              <br />
+              MENT.
+            </h2>
 
-          <p className="booking-description">
-            We take pride in delivering a premium barbering experience from the
-            moment you walk through our doors. Select your preferred barber and
-            time at your convenience. Reschedules require at least 24 hours
-            notice.
-          </p>
+            <p className="booking-description">
+              We take pride in delivering a premium barbering experience from
+              the moment you walk through our doors. Select your preferred
+              barber and time at your convenience. Reschedules require at least
+              24 hours notice.
+            </p>
 
-          <button className="booking-button">BOOK NOW</button>
-        </div>
+            <a className="booking-button animated-button" href="#location">
+              BOOK NOW
+            </a>
+          </div>
+        </Reveal>
 
         <div className="booking-images">
-          <img
-            className="booking-img booking-img-left"
-            src="/cuttinghair.png"
-            alt="Barber cutting hair"
-          />
+          <Reveal direction="up" delay={100} className="booking-image-reveal">
+            <img
+              className="booking-img booking-img-left"
+              src="/booking-cut.png"
+              alt="Barber creating a precise haircut"
+            />
+          </Reveal>
 
-          <img
-            className="booking-img booking-img-right"
-            src="/thecut.png"
-            alt="Finished haircut"
-          />
+          <Reveal direction="up" delay={250} className="booking-image-reveal">
+            <img
+              className="booking-img booking-img-right"
+              src="/booking-look.png"
+              alt="Finished premium haircut"
+            />
+          </Reveal>
         </div>
       </div>
     </section>

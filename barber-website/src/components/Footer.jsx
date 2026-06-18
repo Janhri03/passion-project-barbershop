@@ -1,19 +1,35 @@
+import Reveal from "./Reveal";
+
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-logo">
-        THE<span>PLUG</span>
-      </div>
+      <Reveal direction="left">
+        <a className="footer-logo" href="#home">
+          THE<span>PLUG</span>
+        </a>
+      </Reveal>
 
-      <p className="footer-copy">
-        © 2026 THE PLUG BARBERSHOP. ALL RIGHTS RESERVED.
-      </p>
+      <Reveal direction="up" delay={100}>
+        <p className="footer-copy">
+          © 2026 THE PLUG BARBERSHOP. ALL RIGHTS RESERVED.
+        </p>
+      </Reveal>
 
-      <div className="footer-socials">
-        <a href="#">INSTAGRAM</a>
-        <a href="#">FACEBOOK</a>
-        <a href="#">TWITTER</a>
-      </div>
+      <Reveal direction="right" delay={200}>
+        <div className="footer-socials">
+          <a href="#" aria-label="Instagram">
+            INSTAGRAM
+          </a>
+
+          <a href="#" aria-label="Facebook">
+            FACEBOOK
+          </a>
+
+          <a href="#" aria-label="Twitter">
+            TWITTER
+          </a>
+        </div>
+      </Reveal>
     </footer>
   );
 }

@@ -1,9 +1,9 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">
+      <a className="logo" href="#home" aria-label="The Plug homepage">
         THE<span>PLUG</span>
-      </div>
+      </a>
 
       <div className="nav-links">
         <a href="#services">SERVICES</a>
@@ -12,7 +12,9 @@ function Navbar() {
         <a href="#booking">BOOKING</a>
       </div>
 
-      <button className="nav-button">BOOK NOW</button>
+      <a className="nav-button animated-button" href="#booking">
+        BOOK NOW
+      </a>
     </nav>
   );
 }

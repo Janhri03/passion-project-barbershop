@@ -11,12 +11,29 @@ html {
 body {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
+
   background: #080808;
   color: #f4efe8;
-  overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 button,
 a {
-  font-family: inherit;
+  font: inherit;
+}
+
+button {
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
