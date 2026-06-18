@@ -6,7 +6,6 @@ function Booking() {
       <div className="booking-content">
         <Reveal direction="left">
           <div className="booking-text">
-            <p className="booking-label">04 — RESERVE YOUR TIME</p>
 
             <h2>
               BOOK AN
@@ -33,7 +32,7 @@ function Booking() {
           <Reveal direction="up" delay={100} className="booking-image-reveal">
             <img
               className="booking-img booking-img-left"
-              src="/booking-cut.png"
+              src="/cuttinghair.png"
               alt="Barber creating a precise haircut"
             />
           </Reveal>
@@ -41,7 +40,7 @@ function Booking() {
           <Reveal direction="up" delay={250} className="booking-image-reveal">
             <img
               className="booking-img booking-img-right"
-              src="/booking-look.png"
+              src="/thecut.png"
               alt="Finished premium haircut"
             />
           </Reveal>

@@ -68,7 +68,6 @@ function Hero() {
         <Reveal direction="right" className="hero-image-reveal">
           <div className="hero-right">
             <img src="/barber-work.png" alt="Barber cutting a client's hair" />
-            <p className="vertical-text">01 / HERO</p>
           </div>
         </Reveal>
       </div>

@@ -51,8 +51,6 @@ function Services() {
       <div className="services-top">
         <Reveal direction="left">
           <div>
-            <p className="section-label">02 — WHAT WE DO</p>
-
             <h2>
               OUR
               <br />
@@ -94,11 +92,11 @@ function Services() {
       <Reveal direction="up" className="services-image-reveal">
         <div className="services-images">
           <div className="service-image">
-            <img src="/service-tools.png" alt="Professional barber tools" />
+            <img src="/barber-tools.png" alt="Professional barber tools" />
           </div>
 
           <div className="service-image">
-            <img src="/service-chair.png" alt="Premium barber chair" />
+            <img src="/barber-chair.png" alt="Premium barber chair" />
           </div>
         </div>
       </Reveal>

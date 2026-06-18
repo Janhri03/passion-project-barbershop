@@ -6,8 +6,6 @@ function Location() {
       <div className="location-content">
         <Reveal direction="left">
           <div className="location-left">
-            <p className="location-label">05 — FIND US</p>
-
             <h2>
               LOCAT<span>ION.</span>
             </h2>
@@ -16,11 +14,11 @@ function Location() {
               <p className="small-title">ADDRESS</p>
 
               <p className="address-text">
-                12 Barbershop Street
+                12 Todor Dimov Street
                 <br />
-                Athens, 10431
+                Sofia, 9002
                 <br />
-                Greece
+                Bulgaria
               </p>
             </div>
 
@@ -46,7 +44,7 @@ function Location() {
             <div className="contact-row">
               <div>
                 <p className="small-title">PHONE</p>
-                <p>+30 210 000 0000</p>
+                <p>+359 800 000 000</p>
               </div>
 
               <div>
@@ -61,11 +59,11 @@ function Location() {
           <div className="location-right">
             <div className="location-image-box">
               <img
-                src="/location-shop.png"
+                src="/interior.png"
                 alt="The Plug barbershop interior"
               />
 
-              <div className="location-badge">THE PLUG — ATHENS</div>
+              <div className="location-badge">THE PLUG — SOFIA</div>
             </div>
           </div>
         </Reveal>
