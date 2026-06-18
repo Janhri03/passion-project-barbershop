@@ -69,6 +69,11 @@ body {
   cursor: pointer;
 }
 
+.nav-button:hover {
+  background: #be864f;
+  
+}
+
 /* HERO */
 
 .hero {
@@ -118,7 +123,7 @@ body {
   text-align: left;
 
   font-size: clamp(90px, 11vw, 178px);
-  line-height: 0.80;
+  line-height: 0.76;
   letter-spacing: -2px;
 
   color: #f4efe8;
@@ -1005,6 +1010,72 @@ body {
   .hours-row {
     gap: 20px;
   }
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 110px;
+
+  background: #11100d;
+  color: #f4efe8;
+
+  border-top: 2px solid #b87532;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+
+  padding: 0 54px;
+}
+
+.footer-logo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  color: #f4efe8;
+}
+
+.footer-logo span {
+  color: #b87532;
+}
+
+.footer-copy {
+  font-family: "Inter", sans-serif;
+
+  color: rgba(244, 239, 232, 0.24);
+
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  text-align: center;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: flex-end;
+  gap: 36px;
+}
+
+.footer-socials a {
+  font-family: "Inter", sans-serif;
+
+  color: rgba(244, 239, 232, 0.32);
+
+  text-decoration: none;
+
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 3px;
+
+  transition: 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #b87532;
 }
 
 /* TEMPORARY SECTIONS */

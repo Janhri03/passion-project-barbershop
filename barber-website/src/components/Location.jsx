@@ -12,9 +12,9 @@ function Location() {
             <p className="small-title">ADDRESS</p>
 
             <p className="address-text">
-              12 Barbershop Street <br />
-              Athens, 10431 <br />
-              Greece
+              Todor Dimov 10 Street <br />
+              Sofia, 10431 <br />
+              Bulgaria
             </p>
           </div>
 
@@ -40,12 +40,12 @@ function Location() {
           <div className="contact-row">
             <div>
               <p className="small-title">PHONE</p>
-              <p>+30 210 000 0000</p>
+              <p>+359 800 000 000</p>
             </div>
 
             <div>
               <p className="small-title">EMAIL</p>
-              <p>hello@theplug.gr</p>
+              <p>hello@gmail.com</p>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ function Location() {
             <img src="/interior.png" alt="The Plug barbershop interior" />
 
             <div className="location-badge">
-              THE PLUG — ATHENS
+              THE PLUG - SOFIA
             </div>
           </div>
         </div>
